@@ -8,7 +8,7 @@ from time import sleep
 
 def main():
     st.set_page_config(layout="wide")
-    st.title("AQROAD: AI-powered real-time road sign detection and recognition.")
+    st.markdown("<h1 style='font-size: 28px;'>AQROAD: AI-powered real-time road sign detection and recognition.</h1>", unsafe_allow_html=True)
     
     detector = RoadSignDetector()
 
