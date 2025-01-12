@@ -34,8 +34,6 @@ Run the application using Streamlit:
 streamlit run app.py
 ```
 
-```
-
 ## Model Training
 The model was trained on the GTSRB dataset using YOLOv8. The training data is not included in this repository due to size constraints.
 
