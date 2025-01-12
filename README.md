@@ -18,7 +18,7 @@ A real-time road sign detection application using YOLOv8 trained on the GTSRB da
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/traffic-sign-detector.git
+git clone https://github.com/wabbit12/AQROAD or your forked repository.
 cd traffic-sign-detector
 ```
 
