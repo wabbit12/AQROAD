@@ -1,6 +1,6 @@
 # Road Sign Detection App
 
-A real-time road sign detection application using YOLOv8 trained on the GTSRB (German Traffic Sign Recognition Benchmark) dataset.
+A real-time road sign detection application using YOLOv8 trained on the GTSRB dataset.
 
 ## Features
 - Real-time road sign detection using webcam
