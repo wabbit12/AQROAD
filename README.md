@@ -33,6 +33,11 @@ Run the application using Streamlit:
 ```bash
 streamlit run app.py
 ```
+## If Error
+If getting error in ultralytics/models/best.pt:
+```bash
+git lfs install
+```
 
 ## Model Training
 The model was trained on the GTSRB dataset using YOLOv8. The training data is not included in this repository due to size constraints.
