@@ -261,7 +261,6 @@ class RoadSignDetector:
         return frame_copy
 
     def __del__(self):
-        """Cleanup when the object is deleted"""
         if hasattr(self, 'speech_queue'):
             self.speech_queue.put(None)
             if hasattr(self, 'speech_thread'):
