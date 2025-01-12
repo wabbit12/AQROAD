@@ -1,7 +1,6 @@
 import streamlit as st
 import cv2
 from detector import RoadSignDetector
-import winsound
 from time import sleep
 
 
