@@ -1,6 +1,6 @@
 # Road Sign Detection App
 
-A real-time road sign detection application using YOLOv8 trained on the GTSRB (German Traffic Sign Recognition Benchmark) dataset.
+A real-time road sign detection application using YOLOv8 trained on the GTSRB dataset.
 
 ## Features
 - Real-time road sign detection using webcam
@@ -27,8 +27,6 @@ cd traffic-sign-detector
 pip install -r requirements.txt
 ```
 
-3. Download the model:
-Due to file size limitations, the trained model is not included in this repository. You can download it from [link] and place it in the `models` directory.
 
 ## Usage
 Run the application using Streamlit:
@@ -36,17 +34,6 @@ Run the application using Streamlit:
 streamlit run app.py
 ```
 
-## Project Structure
-```
-traffic_sign_detector/
-├── requirements.txt
-├── app.py                 # Main Streamlit application
-├── detector.py           # Road sign detector class
-├── models/
-│   ├── best.pt          # Trained YOLO model (needs to be downloaded)
-│   └── classes.yaml     # Class definitions
-└── utils/
-    └── preprocessing.py  # Image preprocessing utilities
 ```
 
 ## Model Training
